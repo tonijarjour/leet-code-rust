@@ -1,15 +1,5 @@
-//mod two_sum;
-//mod roman_to_int;
-//mod longest_common_prefix;
-//mod valid_parentheses;
-//mod merge_two_lists;
-mod remove_duplicates;
+mod running_sum;
 
 fn main() {
-    //println!("{:?}", two_sum::solve(vec![3, 2, 4], 6));
-    //println!("{:?}", roman_to_int::solve("MCMXCIV".to_string()));
-    //println!("{:?}", longest_common_prefix::solve(vec!["dog".to_string(), "racecar".to_string(), "car".to_string()]));
-    //println!("{}", valid_parentheses::solve("({}){()}()[[()]{}]".to_string()));
-    //merge_two_lists::run();
-    remove_duplicates::run();
+    println!("{:?}", running_sum::solve(vec![1, 1, 1, 1, 1]));
 }
