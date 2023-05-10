@@ -1,5 +1,8 @@
-mod running_sum;
+mod isomorphic_strings;
 
 fn main() {
-    println!("{:?}", running_sum::solve(vec![1, 1, 1, 1, 1]));
+    println!(
+        "{}",
+        isomorphic_strings::solve("egg".to_string(), "add".to_string())
+    );
 }
