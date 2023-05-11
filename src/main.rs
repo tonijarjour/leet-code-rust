@@ -1,8 +1,8 @@
-mod isomorphic_strings;
+mod subsequence;
 
 fn main() {
     println!(
         "{}",
-        isomorphic_strings::solve("egg".to_string(), "add".to_string())
+        subsequence::solve("abc".to_string(), "ahbgdc".to_string())
     );
 }
