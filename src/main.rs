@@ -1,8 +1,8 @@
-mod subsequence;
+mod middle_linked_list;
 
 fn main() {
     println!(
-        "{}",
-        subsequence::solve("abc".to_string(), "ahbgdc".to_string())
+        "{:?}",
+        middle_linked_list::solve(head)
     );
 }
