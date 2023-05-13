@@ -1,5 +1,5 @@
-mod max_profit;
+mod longest_palindrome;
 
 fn main() {
-    println!("{:?}", max_profit::solve(vec![7, 1, 5, 3, 6, 4]));
+    println!("{:?}", longest_palindrome::solve("abccccdd".to_string()));
 }
