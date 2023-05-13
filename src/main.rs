@@ -1,8 +1,5 @@
-mod middle_linked_list;
+mod max_profit;
 
 fn main() {
-    println!(
-        "{:?}",
-        middle_linked_list::solve(head)
-    );
+    println!("{:?}", max_profit::solve(vec![7, 1, 5, 3, 6, 4]));
 }
