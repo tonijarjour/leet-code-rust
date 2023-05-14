@@ -1,5 +1,5 @@
-mod longest_palindrome;
+mod binary_search;
 
 fn main() {
-    println!("{:?}", longest_palindrome::solve("abccccdd".to_string()));
+    println!("{:?}", binary_search::solve(vec![5], -5));
 }
